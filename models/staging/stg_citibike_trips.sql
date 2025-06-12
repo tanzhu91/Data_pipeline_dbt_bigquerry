@@ -2,4 +2,7 @@
 
 SELECT *
 FROM {{ source('citibike', 'citibike_trips') }}
-WHERE starttime IS NOT NULL , stoptime IS NOT NULL , birth_year IS NOT NULL  AND tipduration IS NOT NULL
+WHERE starttime IS NOT NULL
+  AND stoptime IS NOT NULL
+  AND birth_year IS NOT NULL
+  AND tripduration IS NOT NULL
