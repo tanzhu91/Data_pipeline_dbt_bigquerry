@@ -6,10 +6,7 @@ sources:
     schema: new_york_citibike
     tables:
       - name: citibike_trips
-
-version: 2
-
-sources:
+      
   - name: nyc_taxi
     database: bigquery-public-data
     schema: new_york_taxi_trips
