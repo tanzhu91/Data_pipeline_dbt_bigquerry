@@ -2,4 +2,4 @@
 
 -- This is your raw, materialized table
 select *
-from {{ source('nyc_taxi', 'tlc_yellow_trips_2022','tlc_green_trips_2022') }}
+from {{ source('new_york_taxi_trips', 'tlc_green_trips_2022') }}
