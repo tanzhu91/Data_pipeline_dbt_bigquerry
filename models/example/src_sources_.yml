@@ -12,5 +12,6 @@ sources:
     schema: new_york_taxi_trips
     tables:
       - name: tlc_yellow_trips_2022
+      - name: tlc_green_trips_2022
 
 
