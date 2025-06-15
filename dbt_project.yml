@@ -40,3 +40,10 @@ models:
     # Applies to all files under models/example/
     example:
       +materialized: table
+<<<<<<< HEAD
+=======
+    staging:
+      +materialized: table
+    prep:
+      +materialized: table
+>>>>>>> 436957db517a289575d28a630fe9cd74c1e2ee42
